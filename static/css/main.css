@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family:sans-serif;
+    background-color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+table {
+    table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+td {
+    border: 2px solid black;
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    /* css-3 */
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+
+}
+td.active {
+    border: 1px solid blue;
+    word-wrap:break-word;
+}
+
+td.brdr-b-hide {
+    border-bottom: none;
+}
+td.brdr-r-hide {
+    border-right: none;
+}
+

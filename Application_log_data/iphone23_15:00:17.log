@@ -1,0 +1,273 @@
+2022-07-25 15:00:38,650 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:00:38] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2022-07-25 15:00:39,088 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:00:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-25 15:00:39,099 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:00:39] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-25 15:00:39,317 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:00:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-25 15:00:39,347 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:00:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-25 15:01:04,762 — root — INFO —  product searching url https://www.flipkart.com/search?q=iphone11s
+2022-07-25 15:01:07,331 — root — INFO — fetched web page should be of class type bytes: <class 'bytes'>
+2022-07-25 15:01:07,467 — root — INFO — Parsed web page should be of class type BeautifulSoup: <class 'bs4.BeautifulSoup'>
+2022-07-25 15:01:07,542 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:08,833 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/p/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&q=iphone11s&store=tyy%2F4io&srno=s_1_2&otracker=search&fm=organic&iid=f8f99fdf-2ad2-4da5-8112-9a0098e009bb.MOBFWQ6BHPMG29QM.SEARCH&ppt=None&ppn=None&ssid=xmh6c8zy5s0000001658741465838&qH=b92ad4f8f31915a3 HTTP/1.1" 200 None
+2022-07-25 15:01:09,287 — root — INFO — fetched webpage of first product url: https://www.flipkart.com/apple-iphone-11-green-64-gb/p/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&q=iphone11s&store=tyy%2F4io&srno=s_1_2&otracker=search&fm=organic&iid=f8f99fdf-2ad2-4da5-8112-9a0098e009bb.MOBFWQ6BHPMG29QM.SEARCH&ppt=None&ppn=None&ssid=xmh6c8zy5s0000001658741465838&qH=b92ad4f8f31915a3
+2022-07-25 15:01:09,322 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:10,370 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/p/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&q=iphone11s&store=tyy%2F4io&srno=s_1_2&otracker=search&fm=organic&iid=f8f99fdf-2ad2-4da5-8112-9a0098e009bb.MOBFWQ6BHPMG29QM.SEARCH&ppt=None&ppn=None&ssid=xmh6c8zy5s0000001658741465838&qH=b92ad4f8f31915a3 HTTP/1.1" 200 None
+2022-07-25 15:01:10,925 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:11,906 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART HTTP/1.1" 200 None
+2022-07-25 15:01:12,305 — root — INFO — Pages Visited: 
+2022-07-25 15:01:12,308 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:13,192 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=2 HTTP/1.1" 200 None
+2022-07-25 15:01:13,664 — root — INFO — page=2
+2022-07-25 15:01:13,682 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:14,515 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=3 HTTP/1.1" 200 None
+2022-07-25 15:01:15,058 — root — INFO — page=3
+2022-07-25 15:01:15,077 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:15,838 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=4 HTTP/1.1" 200 None
+2022-07-25 15:01:16,332 — root — INFO — page=4
+2022-07-25 15:01:16,352 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:17,432 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=5 HTTP/1.1" 200 None
+2022-07-25 15:01:17,804 — root — INFO — page=5
+2022-07-25 15:01:17,822 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:18,862 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=6 HTTP/1.1" 200 None
+2022-07-25 15:01:19,336 — root — INFO — page=6
+2022-07-25 15:01:19,354 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:21,134 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=7 HTTP/1.1" 200 None
+2022-07-25 15:01:21,683 — root — INFO — page=7
+2022-07-25 15:01:21,700 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:22,747 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=8 HTTP/1.1" 200 None
+2022-07-25 15:01:23,450 — root — INFO — page=8
+2022-07-25 15:01:23,470 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:24,385 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=9 HTTP/1.1" 200 None
+2022-07-25 15:01:24,836 — root — INFO — page=9
+2022-07-25 15:01:24,854 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:25,618 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=10 HTTP/1.1" 200 None
+2022-07-25 15:01:25,944 — root — INFO — page=10
+2022-07-25 15:01:25,959 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:27,043 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=11 HTTP/1.1" 200 None
+2022-07-25 15:01:27,435 — root — INFO — page=11
+2022-07-25 15:01:27,447 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:28,987 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=12 HTTP/1.1" 200 None
+2022-07-25 15:01:29,510 — root — INFO — page=12
+2022-07-25 15:01:29,525 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:30,368 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=13 HTTP/1.1" 200 None
+2022-07-25 15:01:37,439 — root — INFO — page=13
+2022-07-25 15:01:37,444 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:40,582 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=14 HTTP/1.1" 200 None
+2022-07-25 15:01:41,406 — root — INFO — page=14
+2022-07-25 15:01:41,426 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:42,356 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=15 HTTP/1.1" 200 None
+2022-07-25 15:01:43,092 — root — INFO — page=15
+2022-07-25 15:01:43,102 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:44,063 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=16 HTTP/1.1" 200 None
+2022-07-25 15:01:44,570 — root — INFO — page=16
+2022-07-25 15:01:44,589 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:45,572 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=17 HTTP/1.1" 200 None
+2022-07-25 15:01:46,339 — root — INFO — page=17
+2022-07-25 15:01:46,349 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:48,042 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=18 HTTP/1.1" 200 None
+2022-07-25 15:01:49,300 — root — INFO — page=18
+2022-07-25 15:01:49,314 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:51,698 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=19 HTTP/1.1" 200 None
+2022-07-25 15:01:52,113 — root — INFO — page=19
+2022-07-25 15:01:52,128 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:53,134 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=20 HTTP/1.1" 200 None
+2022-07-25 15:01:53,896 — root — INFO — page=20
+2022-07-25 15:01:53,901 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:55,336 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=21 HTTP/1.1" 200 None
+2022-07-25 15:01:56,518 — root — INFO — page=21
+2022-07-25 15:01:56,537 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:57,652 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=22 HTTP/1.1" 200 None
+2022-07-25 15:01:58,177 — root — INFO — page=22
+2022-07-25 15:01:58,182 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:01:59,849 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=23 HTTP/1.1" 200 None
+2022-07-25 15:02:00,414 — root — INFO — page=23
+2022-07-25 15:02:00,421 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:03,516 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=24 HTTP/1.1" 200 None
+2022-07-25 15:02:04,804 — root — INFO — page=24
+2022-07-25 15:02:04,820 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:06,289 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=25 HTTP/1.1" 200 None
+2022-07-25 15:02:06,690 — root — INFO — page=25
+2022-07-25 15:02:06,703 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:07,579 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=26 HTTP/1.1" 200 None
+2022-07-25 15:02:07,797 — root — INFO — page=26
+2022-07-25 15:02:07,810 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:11,157 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=27 HTTP/1.1" 200 None
+2022-07-25 15:02:11,333 — root — INFO — page=27
+2022-07-25 15:02:11,341 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:12,493 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=28 HTTP/1.1" 200 None
+2022-07-25 15:02:12,843 — root — INFO — page=28
+2022-07-25 15:02:12,853 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:13,721 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=29 HTTP/1.1" 200 None
+2022-07-25 15:02:14,064 — root — INFO — page=29
+2022-07-25 15:02:14,070 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:14,949 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=30 HTTP/1.1" 200 None
+2022-07-25 15:02:15,274 — root — INFO — page=30
+2022-07-25 15:02:15,280 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:16,180 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=31 HTTP/1.1" 200 None
+2022-07-25 15:02:16,652 — root — INFO — page=31
+2022-07-25 15:02:16,662 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:17,364 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=32 HTTP/1.1" 200 None
+2022-07-25 15:02:17,821 — root — INFO — page=32
+2022-07-25 15:02:17,828 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:18,842 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=33 HTTP/1.1" 200 None
+2022-07-25 15:02:19,123 — root — INFO — page=33
+2022-07-25 15:02:19,144 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:25,178 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=34 HTTP/1.1" 200 None
+2022-07-25 15:02:25,624 — root — INFO — page=34
+2022-07-25 15:02:25,635 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:26,402 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=35 HTTP/1.1" 200 None
+2022-07-25 15:02:26,743 — root — INFO — page=35
+2022-07-25 15:02:26,752 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:27,459 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=36 HTTP/1.1" 200 None
+2022-07-25 15:02:27,673 — root — INFO — page=36
+2022-07-25 15:02:27,686 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:28,582 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=37 HTTP/1.1" 200 None
+2022-07-25 15:02:28,918 — root — INFO — page=37
+2022-07-25 15:02:28,926 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:29,876 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=38 HTTP/1.1" 200 None
+2022-07-25 15:02:30,440 — root — INFO — page=38
+2022-07-25 15:02:30,457 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:31,306 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=39 HTTP/1.1" 200 None
+2022-07-25 15:02:31,707 — root — INFO — page=39
+2022-07-25 15:02:31,719 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:32,385 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=40 HTTP/1.1" 200 None
+2022-07-25 15:02:32,587 — root — INFO — page=40
+2022-07-25 15:02:32,599 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:33,521 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=41 HTTP/1.1" 200 None
+2022-07-25 15:02:33,839 — root — INFO — page=41
+2022-07-25 15:02:33,849 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:34,680 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=42 HTTP/1.1" 200 None
+2022-07-25 15:02:34,968 — root — INFO — page=42
+2022-07-25 15:02:34,981 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:36,007 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=43 HTTP/1.1" 200 None
+2022-07-25 15:02:36,258 — root — INFO — page=43
+2022-07-25 15:02:36,267 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:37,084 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=44 HTTP/1.1" 200 None
+2022-07-25 15:02:37,552 — root — INFO — page=44
+2022-07-25 15:02:37,560 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:39,279 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=45 HTTP/1.1" 200 None
+2022-07-25 15:02:39,470 — root — INFO — page=45
+2022-07-25 15:02:39,481 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:40,358 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=46 HTTP/1.1" 200 None
+2022-07-25 15:02:40,552 — root — INFO — page=46
+2022-07-25 15:02:40,559 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:41,528 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=47 HTTP/1.1" 200 None
+2022-07-25 15:02:41,803 — root — INFO — page=47
+2022-07-25 15:02:41,813 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:02:42,756 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /apple-iphone-11-green-64-gb/product-reviews/itm386a85013a3d1?pid=MOBFWQ6BHPMG29QM&lid=LSTMOBFWQ6BHPMG29QMSPPOYD&marketplace=FLIPKART&page=48 HTTP/1.1" 200 None
+2022-07-25 15:02:43,102 — root — INFO — page=48
+2022-07-25 15:02:43,111 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:04:03,581 — root — ERROR — Error While scraping the Data: catching classes that do not inherit from BaseException is not allowed
+2022-07-25 15:04:33,835 — root — ERROR — while Running main code: cluster0-shard-00-01.eyco4.mongodb.net:27017: [Errno -3] Temporary failure in name resolution,SSL handshake failed: cluster0-shard-00-02.eyco4.mongodb.net:27017: _ssl.c:835: The handshake operation timed out,cluster0-shard-00-00.eyco4.mongodb.net:27017: [Errno -3] Temporary failure in name resolution, Timeout: 30s, Topology Description: <TopologyDescription id: 62de62d75b7fa18058e68913, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('cluster0-shard-00-00.eyco4.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('cluster0-shard-00-00.eyco4.mongodb.net:27017: [Errno -3] Temporary failure in name resolution',)>, <ServerDescription ('cluster0-shard-00-01.eyco4.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('cluster0-shard-00-01.eyco4.mongodb.net:27017: [Errno -3] Temporary failure in name resolution',)>, <ServerDescription ('cluster0-shard-00-02.eyco4.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('SSL handshake failed: cluster0-shard-00-02.eyco4.mongodb.net:27017: _ssl.c:835: The handshake operation timed out',)>]>
+2022-07-25 15:04:33,888 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:04:33] "POST / HTTP/1.1" 200 -
+2022-07-25 15:08:26,824 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:08:26] "GET / HTTP/1.1" 200 -
+2022-07-25 15:08:37,633 — root — INFO — pocox3  Already exists 
+2022-07-25 15:08:37,819 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:08:37] "POST / HTTP/1.1" 200 -
+2022-07-25 15:08:38,149 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:08:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-07-25 15:08:43,384 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:08:43] "GET / HTTP/1.1" 200 -
+2022-07-25 15:09:28,765 — root — INFO —  product searching url https://www.flipkart.com/search?q=motorola
+2022-07-25 15:09:31,451 — root — INFO — fetched web page should be of class type bytes: <class 'bytes'>
+2022-07-25 15:09:31,696 — root — INFO — Parsed web page should be of class type BeautifulSoup: <class 'bs4.BeautifulSoup'>
+2022-07-25 15:09:31,728 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:32,504 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/p/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&q=motorola&store=search.flipkart.com&srno=s_1_3&otracker=search&fm=organic&iid=e85c68f5-7ea5-4da7-8ac2-480b9b509069.MOBG9CJ6G5GCFAH4.SEARCH&ppt=None&ppn=None&ssid=wtot18d8zk0000001658741969663&qH=750379b5926e9f72 HTTP/1.1" 200 None
+2022-07-25 15:09:32,920 — root — INFO — fetched webpage of first product url: https://www.flipkart.com/motorola-g60-soft-silver-128-gb/p/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&q=motorola&store=search.flipkart.com&srno=s_1_3&otracker=search&fm=organic&iid=e85c68f5-7ea5-4da7-8ac2-480b9b509069.MOBG9CJ6G5GCFAH4.SEARCH&ppt=None&ppn=None&ssid=wtot18d8zk0000001658741969663&qH=750379b5926e9f72
+2022-07-25 15:09:32,953 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:33,728 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/p/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&q=motorola&store=search.flipkart.com&srno=s_1_3&otracker=search&fm=organic&iid=e85c68f5-7ea5-4da7-8ac2-480b9b509069.MOBG9CJ6G5GCFAH4.SEARCH&ppt=None&ppn=None&ssid=wtot18d8zk0000001658741969663&qH=750379b5926e9f72 HTTP/1.1" 200 None
+2022-07-25 15:09:34,143 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:34,814 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART HTTP/1.1" 200 None
+2022-07-25 15:09:35,138 — root — INFO — Pages Visited: 
+2022-07-25 15:09:35,140 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:35,906 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=2 HTTP/1.1" 200 None
+2022-07-25 15:09:36,109 — root — INFO — page=2
+2022-07-25 15:09:36,131 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:36,822 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=3 HTTP/1.1" 200 None
+2022-07-25 15:09:37,099 — root — INFO — page=3
+2022-07-25 15:09:37,119 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:37,898 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=4 HTTP/1.1" 200 None
+2022-07-25 15:09:38,165 — root — INFO — page=4
+2022-07-25 15:09:38,191 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:38,897 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=5 HTTP/1.1" 200 None
+2022-07-25 15:09:39,245 — root — INFO — page=5
+2022-07-25 15:09:39,264 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:40,303 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=6 HTTP/1.1" 200 None
+2022-07-25 15:09:40,668 — root — INFO — page=6
+2022-07-25 15:09:40,686 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:41,589 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=7 HTTP/1.1" 200 None
+2022-07-25 15:09:41,937 — root — INFO — page=7
+2022-07-25 15:09:41,953 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:42,919 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=8 HTTP/1.1" 200 None
+2022-07-25 15:09:43,223 — root — INFO — page=8
+2022-07-25 15:09:43,243 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:43,956 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=9 HTTP/1.1" 200 None
+2022-07-25 15:09:44,282 — root — INFO — page=9
+2022-07-25 15:09:44,299 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:45,583 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=10 HTTP/1.1" 200 None
+2022-07-25 15:09:46,523 — root — INFO — page=10
+2022-07-25 15:09:46,539 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:47,415 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=11 HTTP/1.1" 200 None
+2022-07-25 15:09:47,673 — root — INFO — page=11
+2022-07-25 15:09:47,680 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:48,438 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=12 HTTP/1.1" 200 None
+2022-07-25 15:09:48,766 — root — INFO — page=12
+2022-07-25 15:09:48,780 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:49,666 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=13 HTTP/1.1" 200 None
+2022-07-25 15:09:50,278 — root — INFO — page=13
+2022-07-25 15:09:50,287 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:51,104 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=14 HTTP/1.1" 200 None
+2022-07-25 15:09:51,544 — root — INFO — page=14
+2022-07-25 15:09:51,551 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:52,908 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=15 HTTP/1.1" 200 None
+2022-07-25 15:09:53,134 — root — INFO — page=15
+2022-07-25 15:09:53,147 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:53,975 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=16 HTTP/1.1" 200 None
+2022-07-25 15:09:54,312 — root — INFO — page=16
+2022-07-25 15:09:54,324 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:54,945 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=17 HTTP/1.1" 200 None
+2022-07-25 15:09:55,328 — root — INFO — page=17
+2022-07-25 15:09:55,337 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:56,412 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=18 HTTP/1.1" 200 None
+2022-07-25 15:09:56,642 — root — INFO — page=18
+2022-07-25 15:09:56,656 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:57,752 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=19 HTTP/1.1" 200 None
+2022-07-25 15:09:58,029 — root — INFO — page=19
+2022-07-25 15:09:58,043 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:59,480 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=20 HTTP/1.1" 200 None
+2022-07-25 15:09:59,738 — root — INFO — page=20
+2022-07-25 15:09:59,751 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:00,456 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=21 HTTP/1.1" 200 None
+2022-07-25 15:10:00,801 — root — INFO — page=21
+2022-07-25 15:10:00,811 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:01,734 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=22 HTTP/1.1" 200 None
+2022-07-25 15:10:02,068 — root — INFO — page=22
+2022-07-25 15:10:02,082 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:02,941 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=23 HTTP/1.1" 200 None
+2022-07-25 15:10:03,206 — root — INFO — page=23
+2022-07-25 15:10:03,217 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:03,953 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=24 HTTP/1.1" 200 None
+2022-07-25 15:10:04,535 — root — INFO — page=24
+2022-07-25 15:10:04,537 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:05,516 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=25 HTTP/1.1" 200 None
+2022-07-25 15:10:05,732 — root — INFO — page=25
+2022-07-25 15:10:05,750 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:06,367 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=26 HTTP/1.1" 200 None
+2022-07-25 15:10:06,769 — root — INFO — page=26
+2022-07-25 15:10:06,777 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:07,767 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=27 HTTP/1.1" 200 None
+2022-07-25 15:10:08,147 — root — INFO — page=27
+2022-07-25 15:10:08,163 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:08,843 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=28 HTTP/1.1" 200 None
+2022-07-25 15:10:09,054 — root — INFO — page=28
+2022-07-25 15:10:09,067 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:10,030 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=29 HTTP/1.1" 200 None
+2022-07-25 15:10:10,489 — root — INFO — page=29
+2022-07-25 15:10:10,501 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:11,758 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=30 HTTP/1.1" 200 None
+2022-07-25 15:10:11,951 — root — INFO — page=30
+2022-07-25 15:10:11,958 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:12,780 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=31 HTTP/1.1" 200 None
+2022-07-25 15:10:12,962 — root — INFO — page=31
+2022-07-25 15:10:12,962 — root — ERROR — Error While scraping the Data: catching classes that do not inherit from BaseException is not allowed
+2022-07-25 15:10:13,352 — root — INFO — Pushed the Data: Successfull
+2022-07-25 15:10:13,353 — root — INFO — pushing the Collected data into mongoDb cloud : True
+2022-07-25 15:10:13,353 — root — INFO — Number of reviews collected 204
+2022-07-25 15:10:13,364 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:10:13] "POST / HTTP/1.1" 200 -
+2022-07-25 15:10:13,737 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:10:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -

@@ -1,0 +1,111 @@
+2022-07-25 15:08:37,633 — root — INFO — pocox3  Already exists 
+2022-07-25 15:08:37,819 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:08:37] "POST / HTTP/1.1" 200 -
+2022-07-25 15:08:38,149 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:08:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-07-25 15:08:43,384 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:08:43] "GET / HTTP/1.1" 200 -
+2022-07-25 15:09:28,765 — root — INFO —  product searching url https://www.flipkart.com/search?q=motorola
+2022-07-25 15:09:31,451 — root — INFO — fetched web page should be of class type bytes: <class 'bytes'>
+2022-07-25 15:09:31,696 — root — INFO — Parsed web page should be of class type BeautifulSoup: <class 'bs4.BeautifulSoup'>
+2022-07-25 15:09:31,728 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:32,504 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/p/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&q=motorola&store=search.flipkart.com&srno=s_1_3&otracker=search&fm=organic&iid=e85c68f5-7ea5-4da7-8ac2-480b9b509069.MOBG9CJ6G5GCFAH4.SEARCH&ppt=None&ppn=None&ssid=wtot18d8zk0000001658741969663&qH=750379b5926e9f72 HTTP/1.1" 200 None
+2022-07-25 15:09:32,920 — root — INFO — fetched webpage of first product url: https://www.flipkart.com/motorola-g60-soft-silver-128-gb/p/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&q=motorola&store=search.flipkart.com&srno=s_1_3&otracker=search&fm=organic&iid=e85c68f5-7ea5-4da7-8ac2-480b9b509069.MOBG9CJ6G5GCFAH4.SEARCH&ppt=None&ppn=None&ssid=wtot18d8zk0000001658741969663&qH=750379b5926e9f72
+2022-07-25 15:09:32,953 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:33,728 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/p/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&q=motorola&store=search.flipkart.com&srno=s_1_3&otracker=search&fm=organic&iid=e85c68f5-7ea5-4da7-8ac2-480b9b509069.MOBG9CJ6G5GCFAH4.SEARCH&ppt=None&ppn=None&ssid=wtot18d8zk0000001658741969663&qH=750379b5926e9f72 HTTP/1.1" 200 None
+2022-07-25 15:09:34,143 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:34,814 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART HTTP/1.1" 200 None
+2022-07-25 15:09:35,138 — root — INFO — Pages Visited: 
+2022-07-25 15:09:35,140 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:35,906 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=2 HTTP/1.1" 200 None
+2022-07-25 15:09:36,109 — root — INFO — page=2
+2022-07-25 15:09:36,131 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:36,822 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=3 HTTP/1.1" 200 None
+2022-07-25 15:09:37,099 — root — INFO — page=3
+2022-07-25 15:09:37,119 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:37,898 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=4 HTTP/1.1" 200 None
+2022-07-25 15:09:38,165 — root — INFO — page=4
+2022-07-25 15:09:38,191 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:38,897 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=5 HTTP/1.1" 200 None
+2022-07-25 15:09:39,245 — root — INFO — page=5
+2022-07-25 15:09:39,264 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:40,303 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=6 HTTP/1.1" 200 None
+2022-07-25 15:09:40,668 — root — INFO — page=6
+2022-07-25 15:09:40,686 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:41,589 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=7 HTTP/1.1" 200 None
+2022-07-25 15:09:41,937 — root — INFO — page=7
+2022-07-25 15:09:41,953 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:42,919 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=8 HTTP/1.1" 200 None
+2022-07-25 15:09:43,223 — root — INFO — page=8
+2022-07-25 15:09:43,243 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:43,956 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=9 HTTP/1.1" 200 None
+2022-07-25 15:09:44,282 — root — INFO — page=9
+2022-07-25 15:09:44,299 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:45,583 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=10 HTTP/1.1" 200 None
+2022-07-25 15:09:46,523 — root — INFO — page=10
+2022-07-25 15:09:46,539 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:47,415 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=11 HTTP/1.1" 200 None
+2022-07-25 15:09:47,673 — root — INFO — page=11
+2022-07-25 15:09:47,680 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:48,438 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=12 HTTP/1.1" 200 None
+2022-07-25 15:09:48,766 — root — INFO — page=12
+2022-07-25 15:09:48,780 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:49,666 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=13 HTTP/1.1" 200 None
+2022-07-25 15:09:50,278 — root — INFO — page=13
+2022-07-25 15:09:50,287 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:51,104 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=14 HTTP/1.1" 200 None
+2022-07-25 15:09:51,544 — root — INFO — page=14
+2022-07-25 15:09:51,551 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:52,908 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=15 HTTP/1.1" 200 None
+2022-07-25 15:09:53,134 — root — INFO — page=15
+2022-07-25 15:09:53,147 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:53,975 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=16 HTTP/1.1" 200 None
+2022-07-25 15:09:54,312 — root — INFO — page=16
+2022-07-25 15:09:54,324 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:54,945 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=17 HTTP/1.1" 200 None
+2022-07-25 15:09:55,328 — root — INFO — page=17
+2022-07-25 15:09:55,337 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:56,412 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=18 HTTP/1.1" 200 None
+2022-07-25 15:09:56,642 — root — INFO — page=18
+2022-07-25 15:09:56,656 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:57,752 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=19 HTTP/1.1" 200 None
+2022-07-25 15:09:58,029 — root — INFO — page=19
+2022-07-25 15:09:58,043 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:09:59,480 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=20 HTTP/1.1" 200 None
+2022-07-25 15:09:59,738 — root — INFO — page=20
+2022-07-25 15:09:59,751 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:00,456 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=21 HTTP/1.1" 200 None
+2022-07-25 15:10:00,801 — root — INFO — page=21
+2022-07-25 15:10:00,811 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:01,734 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=22 HTTP/1.1" 200 None
+2022-07-25 15:10:02,068 — root — INFO — page=22
+2022-07-25 15:10:02,082 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:02,941 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=23 HTTP/1.1" 200 None
+2022-07-25 15:10:03,206 — root — INFO — page=23
+2022-07-25 15:10:03,217 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:03,953 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=24 HTTP/1.1" 200 None
+2022-07-25 15:10:04,535 — root — INFO — page=24
+2022-07-25 15:10:04,537 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:05,516 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=25 HTTP/1.1" 200 None
+2022-07-25 15:10:05,732 — root — INFO — page=25
+2022-07-25 15:10:05,750 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:06,367 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=26 HTTP/1.1" 200 None
+2022-07-25 15:10:06,769 — root — INFO — page=26
+2022-07-25 15:10:06,777 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:07,767 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=27 HTTP/1.1" 200 None
+2022-07-25 15:10:08,147 — root — INFO — page=27
+2022-07-25 15:10:08,163 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:08,843 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=28 HTTP/1.1" 200 None
+2022-07-25 15:10:09,054 — root — INFO — page=28
+2022-07-25 15:10:09,067 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:10,030 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=29 HTTP/1.1" 200 None
+2022-07-25 15:10:10,489 — root — INFO — page=29
+2022-07-25 15:10:10,501 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:11,758 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=30 HTTP/1.1" 200 None
+2022-07-25 15:10:11,951 — root — INFO — page=30
+2022-07-25 15:10:11,958 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-25 15:10:12,780 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /motorola-g60-soft-silver-128-gb/product-reviews/itm7d158ff189510?pid=MOBG9CJ6G5GCFAH4&lid=LSTMOBG9CJ6G5GCFAH4CCXVXL&marketplace=FLIPKART&page=31 HTTP/1.1" 200 None
+2022-07-25 15:10:12,962 — root — INFO — page=31
+2022-07-25 15:10:12,962 — root — ERROR — Error While scraping the Data: catching classes that do not inherit from BaseException is not allowed
+2022-07-25 15:10:13,352 — root — INFO — Pushed the Data: Successfull
+2022-07-25 15:10:13,353 — root — INFO — pushing the Collected data into mongoDb cloud : True
+2022-07-25 15:10:13,353 — root — INFO — Number of reviews collected 204
+2022-07-25 15:10:13,364 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:10:13] "POST / HTTP/1.1" 200 -
+2022-07-25 15:10:13,737 — werkzeug — INFO — 127.0.0.1 - - [25/Jul/2022 15:10:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -

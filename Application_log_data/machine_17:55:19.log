@@ -1,0 +1,24 @@
+2022-07-18 17:55:19,955 — root — INFO —  product searching url https://www.flipkart.com/search?q=machine
+2022-07-18 17:55:21,988 — root — INFO — fetched web page should be of class type bytes: <class 'bytes'>
+2022-07-18 17:55:22,132 — root — INFO — Parsed web page should be of class type BeautifulSoup: <class 'bs4.BeautifulSoup'>
+2022-07-18 17:55:22,158 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-18 17:55:22,707 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /raccoon-beard-hair-538-h-t-c-trimmer-rechargeable-professional-60-min-runtime-4-length-settings/p/itm606195b964c7b?pid=TMRGEHMJT5SUJBFF&lid=LSTTMRGEHMJT5SUJBFFIWVY0L&marketplace=FLIPKART&q=machine&store=search.flipkart.com&srno=s_1_3&otracker=search&fm=organic&iid=49e340ec-102c-409a-acec-afa443523f34.TMRGEHMJT5SUJBFF.SEARCH&ppt=None&ppn=None&ssid=szcqups00w0000001658147121847&qH=14754f13e5280c5d HTTP/1.1" 200 None
+2022-07-18 17:55:22,820 — root — INFO — fetched webpage of first product url: https://www.flipkart.com/raccoon-beard-hair-538-h-t-c-trimmer-rechargeable-professional-60-min-runtime-4-length-settings/p/itm606195b964c7b?pid=TMRGEHMJT5SUJBFF&lid=LSTTMRGEHMJT5SUJBFFIWVY0L&marketplace=FLIPKART&q=machine&store=search.flipkart.com&srno=s_1_3&otracker=search&fm=organic&iid=49e340ec-102c-409a-acec-afa443523f34.TMRGEHMJT5SUJBFF.SEARCH&ppt=None&ppn=None&ssid=szcqups00w0000001658147121847&qH=14754f13e5280c5d
+2022-07-18 17:55:22,846 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-18 17:55:23,323 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /raccoon-beard-hair-538-h-t-c-trimmer-rechargeable-professional-60-min-runtime-4-length-settings/p/itm606195b964c7b?pid=TMRGEHMJT5SUJBFF&lid=LSTTMRGEHMJT5SUJBFFIWVY0L&marketplace=FLIPKART&q=machine&store=search.flipkart.com&srno=s_1_3&otracker=search&fm=organic&iid=49e340ec-102c-409a-acec-afa443523f34.TMRGEHMJT5SUJBFF.SEARCH&ppt=None&ppn=None&ssid=szcqups00w0000001658147121847&qH=14754f13e5280c5d HTTP/1.1" 200 None
+2022-07-18 17:55:23,496 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-18 17:55:23,833 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /raccoon-beard-hair-538-h-t-c-trimmer-rechargeable-professional-60-min-runtime-4-length-settings/product-reviews/itm606195b964c7b?pid=TMRGEHMJT5SUJBFF&lid=LSTTMRGEHMJT5SUJBFFIWVY0L&marketplace=FLIPKART HTTP/1.1" 200 None
+2022-07-18 17:55:23,927 — root — INFO — Pages Visited: 
+2022-07-18 17:55:23,929 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-18 17:55:24,346 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /raccoon-beard-hair-538-h-t-c-trimmer-rechargeable-professional-60-min-runtime-4-length-settings/product-reviews/itm606195b964c7b?pid=TMRGEHMJT5SUJBFF&lid=LSTTMRGEHMJT5SUJBFFIWVY0L&marketplace=FLIPKART&page=2 HTTP/1.1" 200 None
+2022-07-18 17:55:24,420 — root — INFO — page=2
+2022-07-18 17:55:24,434 — urllib3.connectionpool — DEBUG — Starting new HTTPS connection (1): www.flipkart.com:443
+2022-07-18 17:55:24,858 — urllib3.connectionpool — DEBUG — https://www.flipkart.com:443 "GET /raccoon-beard-hair-538-h-t-c-trimmer-rechargeable-professional-60-min-runtime-4-length-settings/product-reviews/itm606195b964c7b?pid=TMRGEHMJT5SUJBFF&lid=LSTTMRGEHMJT5SUJBFFIWVY0L&marketplace=FLIPKART&page=3 HTTP/1.1" 200 None
+2022-07-18 17:55:24,921 — root — INFO — page=3
+2022-07-18 17:55:25,050 — root — INFO — Pushed the Data: Successfull
+2022-07-18 17:55:25,051 — root — INFO — pushing the Collected data into mongoDb cloud : True
+2022-07-18 17:55:25,052 — root — INFO — Number of reviews collected 29
+2022-07-18 17:55:25,099 — werkzeug — INFO — 127.0.0.1 - - [18/Jul/2022 17:55:25] "POST / HTTP/1.1" 200 -
+2022-07-18 17:55:25,488 — werkzeug — INFO — 127.0.0.1 - - [18/Jul/2022 17:55:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2022-07-18 18:33:38,334 — werkzeug — INFO — 127.0.0.1 - - [18/Jul/2022 18:33:38] "GET / HTTP/1.1" 200 -
+2022-07-18 18:33:38,760 — werkzeug — INFO — 127.0.0.1 - - [18/Jul/2022 18:33:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -

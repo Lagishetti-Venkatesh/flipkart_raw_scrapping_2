@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+{% block head %}
+{% endblock %}
+</head>
+<body>
+
+<div style="overflow-x:auto;">
+
+{% block body %}
+        <table align="center" >
+        <tr>
+            <th>Name</th>
+            <th>Rating</th>
+            <th>title</th>
+            <th>Comment</th>
+        </tr>
+        {% for document in review_data %}
+            <tr>
+                <td >{{ document['name'] }}</td>
+                <td>{{ document['rating'] }}</td>
+                <td style="width:10%">{{ document['title'] }}</td>
+                <td style="width:100%">{{ document['comments'] }} </td>
+            </tr>
+        {% endfor %}
+
+        </table>
+    {% endblock %}
+</div>
+</body>
+</html>

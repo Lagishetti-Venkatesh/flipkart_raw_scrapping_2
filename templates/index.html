@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+{% block head %}
+{% endblock %}
+</head>
+<body>
+
+{% block body %}
+<div align="center">
+    <h4>Please Enter product name that you want to fetch Data for </h4>
+    <form action="/" method="POST" style="padding:10px">
+        <input type="text" name="product" id="product">
+        <input type="submit" value="Search">
+    </form>
+</div>
+{% endblock %}
+</body>
+</html>
