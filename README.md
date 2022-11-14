@@ -24,3 +24,5 @@ MongoDB Cloud database has been used to store data and for logging
  Sometimes the Application in heroku crashes 
  Due to limited resources it cannot perform completed operations. 
  So try search the same product again. 
+### Update: 
+Heroku stopped its free services of deploying projects. 
